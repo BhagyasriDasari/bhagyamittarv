@@ -1,0 +1,40 @@
+.add-note-form {
+    position: relative;
+  }
+  
+  .input-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  
+  .add-note-form input,
+  .add-note-form textarea {
+    width: calc(50% - 5px); /* Adjusted width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+  }
+  
+  .button-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  
+  .add-note-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(147, 17, 173, 0.9);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-note-form button:hover {
+    background-color: rgba(146, 23, 152, 0.7);
+  }
+  

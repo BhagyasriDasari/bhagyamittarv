@@ -1,0 +1,37 @@
+/* SignUpForm.css */
+
+.signup-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: linear-gradient(to bottom right, #a9c6fd, #c692ea);
+    color: #4c0250b3;
+  }
+  
+  .signup-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .signup-form-container input[type="email"],
+  .signup-form-container input[type="password"],
+  .signup-form-container button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .signup-form-container button {
+    background-color: rgba(147, 17, 173, 0.9);
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .signup-form-container button:hover {
+    background-color: rgba(76, 2, 80, 0.7);
+  }
+  
